@@ -1,6 +1,5 @@
 :root{
     --border:1px solid rgb(228, 222, 222);
-    /* --border2:.5px solid rgb(228, 222, 222); */
 }
 body{
     padding: 0px;
@@ -8,27 +7,44 @@ body{
     font-family: sans-serif;
     background-color: whitesmoke;
 }
-.mobile .img1{
+.mobile .mob{
     position: absolute;
     left: 30vw;
     top: 20vh;
     height: 430px;
     width: 300px;
 }
-.mobile .img2{
+.bg{
     position: absolute;
     left: 36.4vw;
     top: 29vh;
     height: 304px;
     width: 163px;
-    opacity: 0.8;
+    animation: bgchange infinite;
+    animation-duration: 15s;
+    background-image: url(./images/177140221987.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-.mobile .img3{
-    position: absolute;
-    left: 36.4vw;
-    top: 29vh;
-    height: 304px;
-    width: 163px;
+@keyframes bgchange {
+
+    25%
+    {
+        background-image: url(/assets/images/9144d6673849.jpg);
+    }
+    50%
+    {
+        background-image: url(/assets/images/b27a108592d8.jpg);
+    }
+    75%
+    {
+        background-image: url(/assets/images/ff2c097a681e.jpg);
+    }
+    100%
+    {
+        background-image: url(/assets/images/177140221987.jpg);
+    }
+      
 }
 .region{
     position: relative;
@@ -156,10 +172,4 @@ footer{
 }
 .store img{
     height: 25px;
-}
-.flex{
-    display: flex;
-}
-.grid{
-    display: grid;
 }
