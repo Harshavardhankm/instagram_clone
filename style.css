@@ -22,26 +22,26 @@ body{
     width: 163px;
     animation: bgchange infinite;
     animation-duration: 15s;
-    background-image: url('/assets/images/177140221987.jpg');
+    background-image: url('./assets/images/177140221987.jpg');
     background-size: 100% 100%;
 }
 @keyframes bgchange {
 
     25%
     {
-        background-image: url('/assets/images/9144d6673849.jpg');
+        background-image: url('./assets/images/9144d6673849.jpg');
     }
     50%
     {
-        background-image: url('/assets/images/b27a108592d8.jpg');
+        background-image: url('./assets/images/b27a108592d8.jpg');
     }
     75%
     {
-        background-image: url('/assets/images/ff2c097a681e.jpg');
+        background-image: url('./assets/images/ff2c097a681e.jpg');
     }
     100%
     {
-        background-image: url('/assets/images/177140221987.jpg');
+        background-image: url('./assets/images/177140221987.jpg');
     }
       
 }
